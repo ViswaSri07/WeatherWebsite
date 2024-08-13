@@ -83,6 +83,10 @@ function getWeatherIcon(condition) {
             return 'thunder';
         case 'drizzle':
             return 'drizzle';
+        case 'mist':
+            return 'mist';
+        case 'haze':
+            return 'haze';
         default:
             return 'unknown';
     }
